@@ -4,47 +4,54 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="body-main">
         <!--Navigation Section-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <a href="#home"><span class="nav-home">Home</span></a>
+            <a href="#contact"><span class="nav-contact">Contact</span></a>
         </nav>
         <!--Profile section-->
-        <div>
-            <img src="img/profile_pic.jpg" alt="a potrait of the author" class="profile-pic">
-            <h2>Mark Mitau</h2>
-            <h3>A bit About me</h3>
-            <p>
-                ....
-            </p>
-        </div>
-        <!--Main Content Section links-->
-        <div>
-            <a href="#">About Me</a>
-            <a href="#">Education</a>
-            <a href="#">Projects</a>
-            <a href="#">Interests</a>
-        </div>
-        <div>
-            <!--Contacts-->
-            <h3>Contact Me</h3>
-            <div>
-                <p>Email: <a href="mailto:markmitz96@Gmail.com">CEO Designs</a>
-                <p>Call: <a href="call:+254787404828">Phone</a></p>
+        <section id="home">
+            <div class="landing-page">
+                <img src="img/profile_pic.jpg" alt="a potrait of the author" class="profile-pic">
+                <div>
+                    <h1>Mark Mitau</h1>
+                    <h3>A Bit About Me</h3>
+                    <p>
+                        Dedicated and detail oriented final year Medical Laboratory Science <br>
+                        student with hands on experience in advanced medical diagnostic laboratories. <br>
+                        Skilled in performing wide range of laboratory procedures in hematology, <br>
+                        microbiology, histopathology and clinical chemistry. <br>
+                        Also a dedicated, curious and enthusiastic tech guy, expert <br>
+                        in Graphics and designing, intermediate web developer; Currently <br>
+                        a student in Power Learn Project Africa at the foundational level.
+                    </p>
+                    <p>
+                        I am passionate about using technology to solve real-world problems, <br>
+                        and I am always eager to learn new skills and take on new challenges. <br>
+                        My goal is to combine my medical knowledge with my tech skills to make a <br>
+                        positive impact in the healthcare industry.
+                    </p>
+                    <p>Use the links below to see more about me!</p>
+                </div>                
             </div>
-            <div>
-                <p>Follow me on:</p>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">X</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Instagram</a></li>
+            <!--Main Content Section links-->
+            <div class="content-links">
+                <p><a class="link-about" href="about.html">About Me</a></p>
+                <p><a class="link-education" href="education.html">Education</a></p>
+                <p><a class="link-project" href="projects.html">Projects</a></p>
+                <p><a class="link-interest" href="interests.html">Interests</a></p>
             </div>
-        </div>
+        </section>
+        <section id="contact">
+            <div class="contact-section">
+                <!--Contacts-->
+                <h3>Contact Me</h3>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:markmitz96@Gmail.com">CEO Designs</a>
+                    <p class="call-cont">Call:  <a href="tel:+254787404828">Phone</a></p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
