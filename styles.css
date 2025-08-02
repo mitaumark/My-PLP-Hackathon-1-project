@@ -1,12 +1,14 @@
 .body-main {
-    background-image: url(img/backgroundb.jpg);
-    backdrop-filter:;
+    background-image: url(img/background.jpg);
+    backdrop-filter:blur(3px);
     background-size: cover;
     background-attachment:fixed ;
     background-color: #c0c0ae;
-    color: #2f2a22;
+    color:black;
     font-family:sans-serif;
     margin: 0;
+    font-size: larger;
+    font-weight: bolder;
 }
 .nav-bar {
     display: flex ;
@@ -28,10 +30,14 @@
         border-radius: 15px;
 }
 h1 {
-    font-size: 3.0em;
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 5.5em;
+    color: #B1805A;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
 }
 .landing-page {
     display: flex;
@@ -40,8 +46,8 @@ h1 {
     font-weight: lighter;
 }
 .profile-pic {
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 450px;
     border-radius: 50%;
     margin-right: 100px;
     margin-left:100px ;
@@ -83,7 +89,6 @@ h1 {
     border-radius: 10px;
 }
 .contact-section {
-    margin-top: 20px;
     padding: 10px;
     background-color: #B1805A;
     border-radius: 10px;
@@ -94,4 +99,59 @@ h1 {
 }
 .call-cont {
 margin-left:70px ;
+}
+.about-section {
+    margin-top: 20px;
+    padding-left:  80px;
+    padding-bottom: 80px;
+    background-color: #B1805A;
+    border-radius: 10px;
+    background-image: url(img/about.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+.abt-me {
+    font-size: 2.6em;
+    color: #B1805A;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.about-photo {
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+figcaption {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    color: #000000;
+}
+.education-section {
+    padding:  80px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.2em;
+    background-color: lightblue;
+    
+}
+.projects-section {
+    padding:  80px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.2em;
+    background-color:lightgreen;
+
+}
+.interests-section {
+    margin-bottom: 50px;
+    padding: 80px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.2em; 
+    border: solid 5px #c0c0ae;
+    background-color:yellowgreen;
 }
